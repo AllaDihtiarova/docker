@@ -1,13 +1,14 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.APP_PORT
+const password = process.env.DB_PASSWORD
 
 const Pool = require('pg').Pool
 const pool = new Pool({
   user: 'postgres',
   host: 'db',
   database: 'api',
-  password: '98765',
+  password: password,
   port: 5432,
 })
 
