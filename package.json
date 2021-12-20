@@ -1,0 +1,26 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllaDihtiarova/docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllaDihtiarova/docker/issues"
+  },
+  "homepage": "https://github.com/AllaDihtiarova/docker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  }
+}
